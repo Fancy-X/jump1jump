@@ -1,0 +1,30 @@
+#wrapper {
+	position: absolute;
+	z-index: 1;
+	top: 0.4rem;
+	bottom: 0;
+	left: 50% !important;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	width: 100%;
+	overflow: auto;
+}
+
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	width: 100%;
+	padding: 0;
+}
+
+#pullDown,
+#pullUp,
+#pullUp_list {
+	height: 30px;
+	line-height: 20px;
+	padding: 5px 10px;
+	font-size: 0.24rem;
+	color: #999;
+	text-align: center;
+}
